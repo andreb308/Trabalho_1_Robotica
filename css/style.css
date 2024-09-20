@@ -1,0 +1,15 @@
+.order{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+div.interface{
+    width: 400px;
+	display: inline-block;
+    align-items: center;
+    padding: 20px;
+}
+
+img{
+    border-radius: 10px;
+}
