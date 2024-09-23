@@ -109,8 +109,8 @@
 	
 				<section  data-background-gradient="linear-gradient(to bottom, #190f16, #091518)">
 					<h2>3. Aplicações e Tecnologias Atuais</h2>
-				</section>
-					<section>
+				</section data-background-gradient="linear-gradient(to bottom, #190f16, #091518)">
+					<section data-background-gradient="linear-gradient(to bottom, #190f16, #091518)">
 						<section>
 							Interfaces que promovem a praticidade no lar
 						</section>
@@ -121,15 +121,25 @@
 						<section>Reconhecimento de voz e processamento de linguagem natural</section>
 						<section>
 							<h3>Interfaces hápticas e tátil</h3>
-							<p>sentir o feedback físico de um robô ou de ambiente virtual</p>
-							<li>Vibrações</li>
-							<li>Pressão </li>
-							<li>Pesistência</li>
-							<li>Textura</li>
+							<p>Sentir o feedback físico de um robô ou de ambiente virtual</p>
+							<ul><li>Vibrações</li>
+								<li>Pressão </li>
+								<li>Pesistência</li>
+								<li>Textura</li>
+							</ul>
+
 						</section>
-						<section>
+						<section 	data-background="examples/assets/Capa-Interface-Imersiva.jpeg"
+									data-background-position="center"
+									data-background-opacity="10%">
 							Interfaces Imersivas
 						</section>
+
+								<section>
+										Realidade Virtual
+										<img src="/examples/assets/menina-jogando.jpeg">
+							
+								</section>
 						
 					</section>
 		
@@ -177,6 +187,7 @@
 			Reveal.initialize({
 				hash: true,
 				autoPlayMedia: true,
+				slideNumber: true, 
 
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
